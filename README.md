@@ -55,8 +55,8 @@ A declarative config (`.claude/env.json`) describes everything Claude needs:
   "mcp": ["tracker", "playwright"],
 
   "agentRouting": {
-    "explorer": "deepseek-chat",
-    "default": "gpt-4o"
+    "explorer": "claude-haiku-4-5-20251001",
+    "default": "claude-sonnet-4-6"
   }
 }
 ```

@@ -52,8 +52,8 @@ cd /tmp/claude-env-{feature} && claude
   "mcp": ["tracker", "playwright"],
 
   "agentRouting": {
-    "explorer": "deepseek-chat",
-    "default":  "gpt-4o"
+    "explorer": "claude-haiku-4-5-20251001",
+    "default":  "claude-sonnet-4-6"
   }
 }
 ```
@@ -184,7 +184,7 @@ claude-env status         # список всех активных окруже�
 4. input: GitHub URL для deps (можно пустой)
    → если указан: клонировать, показать checkbox файлов из .claude/agents/ и .claude/skills/
 5. checkbox: какие MCP серверы (список из ~/.claude/settings.json)
-6. input: модель по умолчанию для agentRouting (например gpt-4o)
+6. input: модель по умолчанию для agentRouting (например claude-sonnet-4-6)
 7. confirm → записать .claude/env.json
 ```
 
