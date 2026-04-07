@@ -1,0 +1,20 @@
+{
+  "name": "claude-env",
+  "version": "1.0.0",
+  "description": "CLI for managing isolated Claude Code environments",
+  "bin": {
+    "claude-env": "./bin/claude-env.js"
+  },
+  "main": "bin/claude-env.js",
+  "scripts": {
+    "start": "node bin/claude-env.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1",
+    "simple-git": "^3.22.0"
+  }
+}
